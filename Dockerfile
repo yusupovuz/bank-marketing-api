@@ -4,7 +4,7 @@ FROM python:3.12.3-slim
 # 2. Docker qutisi ichida o'zimiz ishlaydigan papka ochamiz (nomi /app bo'ladi)
 WORKDIR /app
 
-# 3. Faqatgina kutubxonalar ro'yxatini qutining ichiga nusxalaymiz
+
 COPY requirements.txt .
 
 # 4. Quti ichida turib, o'sha kutubxonalarni o'rnatamiz
